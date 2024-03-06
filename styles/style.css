@@ -1,0 +1,437 @@
+/* Work Sans Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Shared Styles */
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+    line-height: 60px;
+}
+
+.linear-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-desc {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.primary-btn {
+    padding: 20px 40px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+}
+
+.primary-btn:hover {
+    color: #534C64;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #534C64;
+    padding: 20px 40px;
+    border-radius: 48px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Header styles */
+
+header {
+    max-width: 1920px;
+    margin: 0px auto;
+}
+
+/* nav ber styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 240px;
+}
+
+.logo-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.logo-title span {
+    color: rgba(255, 66, 165, 1);
+}
+
+.nav-items-container {
+    display: flex;
+    align-items: center;
+    color: #3C354F;
+    font-size: 1.125em;
+    font-weight: 500;
+    list-style: none;
+    gap: 35px;
+}
+
+.nav-items-container a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-items-container>a:hover {
+    color: #534C64;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #534C64;
+    border-radius: 40px;
+}
+
+
+.follow-us-container {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 18px;
+    gap: 18px;
+
+}
+
+/* banner styles */
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    background-image: url('../images/group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-content {
+    width: 50%;
+    padding-left: 240px;
+}
+
+.banner-cont-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.goat-title {
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-desc {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 18px 0px;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.go-btn {
+    background: #4EC5F7;
+}
+
+.banner-image {
+    width: 50%;
+}
+
+/* gamer section styles */
+
+.gamer-sec-container {
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 50px 240px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    ;
+}
+
+.gamer-sec-img {
+    width: 100%;
+}
+
+.gamer-sec-img img {
+    width: 100%;
+}
+
+.gamer-content {
+    width: 80%;
+    text-align: end;
+    padding-left: 50px;
+}
+
+.gamer-content h2 {
+    margin-bottom: 25px;
+}
+
+.know-btn {
+    margin: 28px 0px;
+}
+
+.quote {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+/* Online games section styles */
+
+.online-games {
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 80px 240px;
+    text-align: center;
+}
+
+.online-games p {
+    margin-top: 15px;
+}
+
+.card-container {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.card-content {
+    width: 100%;
+}
+
+.card-content p {
+    text-align: left;
+}
+
+.card-content img {
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    display: block;
+}
+
+.play-btn-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FF42A5;
+    margin-top: 20px;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s ease;
+    border-radius: 16px;
+    border: 2px solid #FF42A5;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+}
+
+.overlay img {
+    width: 20%;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* play instantly & play games online section styles */
+
+.play {
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 20px 240px 120px;
+}
+
+.play-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-content {
+    max-width: 360px;
+    text-align: right;
+    margin: 0px auto;
+}
+
+.play-content p {
+    margin-top: 25px;
+}
+
+.play-image {
+    width: 50%;
+    position: relative;
+}
+
+.play-image>img {
+    width: 100%;
+}
+
+.img-tatto {
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: 70%;
+    top: 55%;
+}
+
+.img-tatto img {
+    width: 100%;
+}
+
+.play-games-container {
+    flex-direction: row-reverse;
+}
+
+.play-games-content {
+    text-align: left;
+}
+
+.tatto-2 {
+    left: 70%;
+}
+
+/* Explore section style */
+
+.explore {
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 100px 240px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.explore-container {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+.explore-container button {
+    border: none;
+    background: none;
+}
+
+.explore-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 50px;
+    padding: 10px 18px;
+    background: #FFF;
+    box-shadow: 1px 1px 5px rgb(226, 224, 224);
+    border: 1px solid transparent;
+}
+
+.explore-content:hover {
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+    cursor: pointer;
+
+}
+
+.explore-title {
+    color: #0B0223;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Footer styles */
+
+footer {
+    background: #0B0223;
+    color: white;
+    margin: 0px auto;
+}
+
+.footer-content {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 100px 240px 50px;
+}
+
+.footer-logo {
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.foot-item,
+.follow-icon,
+.terms,
+.all-rights {
+    justify-content: center;
+    display: flex;
+    gap: 60px;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+}
+
+.foot-item a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 15px;
+
+}
+
+.foot-item a:hover {
+    color: #534C64;
+    cursor: pointer;
+    background: white;
+    box-shadow: 2px 2px 5px #534C64;
+    border-radius: 25px;
+}
+
+.terms,
+.all-rights p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}

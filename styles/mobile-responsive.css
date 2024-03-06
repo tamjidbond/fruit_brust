@@ -1,0 +1,229 @@
+@media screen and (max-width:576px) {
+
+    header {
+        margin: 0px auto;
+        /* padding: 40px; */
+
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .section-desc {
+        font-size: 1rem;
+    }
+
+    .primary-btn {
+        padding: 20px;
+        border-radius: 48px;
+        font-size: 1rem;
+    }
+
+    nav,
+    .nav-items-container,
+    .gamer-sec-container,
+    .card-container,
+    .play-container {
+        flex-direction: column;
+    }
+
+    nav {
+        gap: 25px;
+        padding: 40px;
+    }
+
+    .follow-us-container {
+        margin-top: 10px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        background: none;
+    }
+
+    .banner-content {
+        width: 100%;
+        padding: 40px;
+        background-image: url('../images/group\ 14.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .banner-image {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    .banner-cont-title {
+        font-size: 2rem;
+    }
+
+    .goat-title {
+        font-size: 4.5rem;
+    }
+
+    .icon-desc {
+        margin: 10px 0px;
+    }
+
+    .banner-btn {
+        margin-top: 20px;
+    }
+
+    .gamer-sec-container {
+        margin: 30px auto;
+        padding: 0px;
+        background: none;
+    }
+
+    .gamer-content {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .quote {
+        font-size: 1.5rem;
+    }
+
+    .online-games {
+        padding: 0px 18px;
+    }
+
+    .card-container {
+        margin: 20px 0px 0px;
+    }
+
+    .card-content {
+        padding: 10px;
+    }
+
+    .play {
+        padding: 20px;
+    }
+
+    .play-content {
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .play-content p {
+        margin-bottom: 25px;
+    }
+
+    .play-image {
+        width: 80%;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .play-image2 {
+
+        width: 80%;
+        margin-right: 25px;
+        margin-bottom: 10px;
+    }
+
+    .explore {
+        margin: 25px auto;
+        padding: 10px;
+        background: none;
+    }
+
+    .explore-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 7px;
+        width: 100%;
+    }
+
+    .explore-content {
+        width: 100%;
+        gap: 8px;
+        padding: 5px;
+        margin: 10px auto;
+    }
+
+    .explore-content img {
+        width: 30%;
+    }
+
+    .explore-title {
+        font-size: 10px;
+    }
+
+    .footer-content {
+        padding: 50px 10px 25px;
+    }
+
+    .footer-logo {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo img {
+        width: 25%;
+    }
+
+    .foot-logo-title {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .foot-item,
+    .follow-icon {
+        align-items: center;
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 10px;
+        padding: 0px;
+        margin-bottom: 15px;
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .foot-item a {
+        font-size: 13px;
+    }
+
+    .follow-icon img {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .terms {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+        gap: 10px;
+        padding: 5px 25px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        justify-content: space-between;
+    }
+
+    .terms-text-align {
+        text-align: right;
+    }
+
+    .all-rights {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .all-rights span {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+
+}
